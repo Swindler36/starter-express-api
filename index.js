@@ -20,6 +20,7 @@ server.use(
     "/chat/list/": "/rooms/",
     "/pet": "/pets",
     "/pet/:id": "/pets/:id",
+    "/submissions/:id":"/submissions/get/:id?_expand=user&_expand=job" 
   })
 );
 
