@@ -10,8 +10,6 @@ const userMetas = require("./db/userMeta");
 const userReviews = require("./db/userReview");
 const messages = require("./db/message");
 
-("payment, user review, doctor, room, submission");
-
 module.exports = () => {
   const data = {
     users: users(),
