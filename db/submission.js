@@ -6,7 +6,7 @@ module.exports = () => {
 	for (let i = 0; i < 30; i++) {
 		data.push({
 			id: i + 1,
-			job: i + 1,
+			jobId: i + 1,
 			userId: i + 1,
 			status: faker.helpers.arrayElement([
 				'reject',
