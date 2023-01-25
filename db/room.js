@@ -17,6 +17,7 @@ module.exports = () => {
       id: i + 1,
       owner,
       receiver: getAnotherRandomNumber(owner),
+      submission: i+1
     });
   }
   return data;
