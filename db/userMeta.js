@@ -23,6 +23,10 @@ module.exports = () => {
 			wallet_amount: 0,
 			birthday: faker.date.birthdate(),
 			description: faker.lorem.lines(1),
+		   review_count: faker.datatype.number(100),
+		    review_average: faker.datatype.float({ precision: 0.1,max: 5,min:0 }),
+		    sitting_price: 50.0,
+		    walking_price: 30.0
 		});
 	}
 
